@@ -1,0 +1,12 @@
+version = 1
+
+[[plugin]]
+name = "ldk-server-wallet"
+args = [
+  "--server", "127.0.0.1:3536",
+  "--cert-file", "/home/me/.ldk-server/tls.crt",
+  "--macaroon-file", "/home/me/.mesh-llm/ldk-server.macaroon",
+]
+
+[payments]
+wallet = "ldk-server-wallet"
