@@ -2,7 +2,7 @@ Standalone LDK Server wallet provider for mesh-llm's `wallet.v1` capability.
 Install with:
 
 ```sh
-mesh-llm plugins install benthecarman/ldk-server-wallet
+mesh-llm plugins install Mesh-LLM/ldk-server-wallet
 ```
 
 Then pass the server address, TLS certificate and macaroon file in the

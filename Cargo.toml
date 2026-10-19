@@ -4,7 +4,7 @@ edition = "2024"
 license = "Apache-2.0"
 version = "0.1.0"
 description = "LDK Server wallet plugin for mesh-llm (wallet.v1), external plugin and reusable library"
-repository = "https://github.com/benthecarman/ldk-server-wallet"
+repository = "https://github.com/Mesh-LLM/ldk-server-wallet"
 readme = "README.md"
 
 [dependencies]
