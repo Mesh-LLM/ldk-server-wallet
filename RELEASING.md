@@ -8,13 +8,13 @@ publish. No tests provision wallets, contact live wallet services or move money.
 On-demand build without publication:
 
 ```sh
-gh workflow run release.yml --repo benthecarman/ldk-server-wallet --ref <reviewed-ref> -f publish=false
+gh workflow run release.yml --repo Mesh-LLM/ldk-server-wallet --ref <reviewed-ref> -f publish=false
 ```
 
 Publish the reviewed commit:
 
 ```sh
-gh workflow run release.yml --repo benthecarman/ldk-server-wallet --ref <reviewed-ref> -f publish=true
+gh workflow run release.yml --repo Mesh-LLM/ldk-server-wallet --ref <reviewed-ref> -f publish=true
 ```
 
 Keep Cargo.toml, Cargo.lock package version and plugin.toml synchronized before

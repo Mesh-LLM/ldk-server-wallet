@@ -14,7 +14,7 @@ outside the mesh-llm host.
 No release is published yet. Once one is:
 
 ```sh
-mesh-llm plugins install benthecarman/ldk-server-wallet
+mesh-llm plugins install Mesh-LLM/ldk-server-wallet
 ```
 
 Until then, build an archive (see Development) and install it with:
