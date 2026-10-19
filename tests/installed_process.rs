@@ -32,6 +32,7 @@ fn install(root: &Path) -> PathBuf {
         install_root: root.join("installed"),
         catalog_url: "http://unused.invalid".into(),
         target: PluginTarget::current().unwrap(),
+        bundled_plugins_dir: None,
     };
     let outcome = install_plugin_archive(
         "ldk-server-wallet",
@@ -101,6 +102,7 @@ async fn verify_unopened(stream: &mut LocalStream) {
             host_version: "test".into(),
             host_info_json: "{}".into(),
             mesh_visibility: proto::MeshVisibility::Private.into(),
+            host_capabilities: Vec::new(),
         }),
     )
     .await;
